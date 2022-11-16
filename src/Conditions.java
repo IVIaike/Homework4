@@ -46,5 +46,18 @@ public class Conditions {
             System.out.println("На этот рейс есть свободные сидячие места.");
         }
 
+        //Задание 2.1
+        System.out.println("Задание 2.1");
+        int anotherUserAge = 17;
+
+        if (anotherUserAge>=18) {
+            System.out.println("Поздравляем Вас с совершеннолетием!");
+        }
+        else
+        {
+            System.out.println("Ваше совершеннолетие еще впереди и вам нужно немного подождать!");
+        }
+
+
     }
 }

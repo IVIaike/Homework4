@@ -14,15 +14,37 @@ public class Conditions {
         //Задание 2
         System.out.println("Задание 2");
 
-        int humanAge = 19;
-        if (humanAge>=7) {
+        int humanAge = 25;
+        if (humanAge>=7 && humanAge<18) {
             System.out.println("Ребенок ходит в школу.");
         }
-        if (humanAge>=18) {
+        if (humanAge>=18 && humanAge<24) {
             System.out.println("Человек уже закончил школу и может отправляться в университет!");
         }
         if (humanAge>=24) {
             System.out.println("Человек окончил университет и ему пора искать первую работу!");
         }
+
+        //Задание 3
+        System.out.println("Задание 3");
+
+        int vagonCapacity = 102;
+        int seatingPlaces = 60;
+        int standingPlaces = vagonCapacity - seatingPlaces;
+
+        System.out.println("Вместимость одного вагона поезда составляет 102 человека. Вагон рассчитан на 60 сидячих мест, все остальные – " + standingPlaces + " стоячие.");
+
+        int passengerNumber = 61;
+
+        if (passengerNumber>102) {
+            System.out.println("На этот рейс свободных мест нет");
+        }
+        if (passengerNumber>seatingPlaces && passengerNumber<102) {
+            System.out.println("На этот рейс остались только стоячие места");
+        }
+        if (passengerNumber<=seatingPlaces) {
+            System.out.println("На этот рейс есть свободные сидячие места.");
+        }
+
     }
 }

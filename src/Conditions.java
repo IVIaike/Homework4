@@ -127,9 +127,24 @@ public class Conditions {
             System.out.println("Этот ребенок может кататься на аттракционе без сопровождения.");
         }
 
+        //Задание 3.3
+        System.out.println("Задание 3.3");
 
+        int one = 1;
+        int two = 2;
+        int three = 3;
 
+        boolean biggerDigit = three > two && three > one;
 
+        if (biggerDigit) {
+            System.out.println("Число three - наибольшее число");
+        }
+        else if (two > one && two > three) {
+            System.out.println("Число two - наибольшее число");
+        }
+        else {
+            System.out.println("Число one - наибольшее число");
+        }
 
     }
 }

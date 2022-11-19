@@ -58,6 +58,21 @@ public class Conditions {
             System.out.println("Ваше совершеннолетие еще впереди и вам нужно немного подождать!");
         }
 
+        //Задание 2.2
+        System.out.println("Задание 2.2");
+
+        int anotherHumanAge = 16;
+
+        if (anotherHumanAge>=7 && anotherHumanAge<18) {
+            System.out.println("Ребенок ходит в школу.");
+        }
+        else if (anotherHumanAge>=18 && anotherHumanAge<24) {
+            System.out.println("Человек уже закончил школу и может отправляться в университет!");
+        }
+        else  {
+            System.out.println("Человек окончил университет и ему пора искать первую работу!");
+        }
+
 
     }
 }

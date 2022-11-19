@@ -112,6 +112,23 @@ public class Conditions {
             System.out.println("Этот человек уже может выходить на работу.");
         }
 
+        //Задание 3.2
+        System.out.println("Задание 3.2");
+
+        int childAge = 7;
+
+        if (childAge<5) {
+            System.out.println("Этот ребенок не может кататься на аттракционах");
+        }
+        else if (childAge>=5 && childAge<=13) {
+            System.out.println("Этот ребенок может кататься на аттракционе в сопровождении взрослого.");
+        }
+        else {
+            System.out.println("Этот ребенок может кататься на аттракционе без сопровождения.");
+        }
+
+
+
 
 
     }

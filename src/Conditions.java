@@ -94,6 +94,25 @@ public class Conditions {
             System.out.println("На этот рейс есть свободные сидячие места.");
         }
 
+        //Задание 3.1
+        System.out.println("Задание 3.1");
+
+        int age = 27;
+
+        if (age>=3 && age<=6) {
+            System.out.println("Этот человек должен ходить в детский садик.");
+        }
+        else if (age>=7 && age<=18) {
+            System.out.println("Этот человек должен ходить в школу.");
+        }
+        else if (age>18 && age<=24) {
+            System.out.println("Этот человек должен ходить в университет.");
+        }
+        else {
+            System.out.println("Этот человек уже может выходить на работу.");
+        }
+
+
 
     }
 }

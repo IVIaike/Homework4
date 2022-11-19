@@ -73,6 +73,27 @@ public class Conditions {
             System.out.println("Человек окончил университет и ему пора искать первую работу!");
         }
 
+        //Задание 2.3
+        System.out.println("Задание 2.3");
+
+        int vagonCapacity2ndCase = 102;
+        int seatingPlaces2ndCase = 60;
+        int standingPlaces2ndCase = vagonCapacity2ndCase - seatingPlaces2ndCase;
+
+        System.out.println("Вместимость одного вагона поезда составляет 102 человека. Вагон рассчитан на 60 сидячих мест, все остальные – " + standingPlaces + " стоячие.");
+
+        int passengerNumber2ndCase = 105;
+
+        if (passengerNumber2ndCase>102) {
+            System.out.println("На этот рейс свободных мест нет");
+        }
+        else if (passengerNumber2ndCase>seatingPlaces2ndCase && passengerNumber2ndCase<102) {
+            System.out.println("На этот рейс остались только стоячие места");
+        }
+        else  {
+            System.out.println("На этот рейс есть свободные сидячие места.");
+        }
+
 
     }
 }
